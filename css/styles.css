@@ -1,0 +1,81 @@
+*{
+    font-family: "Arial";
+}
+
+.error-display{
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    top: 30px;
+}
+
+.table{
+    table-layout: auto;
+}
+
+.table tr{
+    height: 3.5em;
+}
+
+.table td, .table th{
+    border: 1px solid rgb(212, 212, 212);
+    vertical-align: middle;
+    white-space:nowrap;
+}
+
+#gray-border-bottom{
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: rgb(240, 240, 240);
+}
+
+.stretch{
+    width: 100%;
+}
+
+/*#item-edit-1, #item-save-cancel-1{
+    display: none;
+}*/
+
+.item-amount-form{
+    width: 100%;
+}
+
+.stuffing{
+    width: 116px;
+}
+
+.flex-space-between{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.button-flex-wraper{
+    /*display: flex;*/
+    justify-content: space-between;
+}
+
+.toggle-default-on{
+    display: flex;
+}
+
+.toggle-default-off{
+    display: none;
+}
+
+.add{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+form input{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    width:100%;
+    line-height: 2em;
+}
